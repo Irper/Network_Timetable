@@ -1,6 +1,6 @@
 package ru.vovan.networktimetable.viewmodel
 
-import TimetableRepository
+import ru.vovan.networktimetable.network.repository.TimetableRepository
 import androidx.lifecycle.ViewModel
 
 class DataViewModel(

@@ -1,9 +1,10 @@
 package ru.vovan.networktimetable.di
 
-import TimetableRepository
-import TimetableRepositoryImpl
+import ru.vovan.networktimetable.network.repository.TimetableRepository
+import ru.vovan.networktimetable.network.repository.TimetableRepositoryImpl
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
+import ru.vovan.networktimetable.network.network.TimetableNetworkObject
 import ru.vovan.networktimetable.viewmodel.DataViewModel
 
 
