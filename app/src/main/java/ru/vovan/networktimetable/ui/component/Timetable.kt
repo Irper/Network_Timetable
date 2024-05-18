@@ -9,7 +9,7 @@ import ru.vovan.networktimetable.viewmodel.DataViewModel
 
 @Composable
 fun Timetable(dataViewModel: DataViewModel = koinViewModel()){
-    val stringLesson by dataViewModel.getAllTimetable().collectAsState(initial = Timetable())
+    val stringLesson by dataViewModel.getAllTimetable().collectAsState(Timetable())
     Text(
         text = stringLesson.toString()
     )
