@@ -56,6 +56,8 @@ dependencies {
 // https://mvnrepository.com/artifact/io.insert-koin/koin-androidx-compose
     implementation("io.insert-koin:koin-androidx-compose:3.5.6")
 
+    implementation ("org.jsoup:jsoup:1.13.1")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
